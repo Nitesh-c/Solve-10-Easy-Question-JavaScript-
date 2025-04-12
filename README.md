@@ -13,9 +13,14 @@ All questions are included directly in the code files as comments above the solu
 All code is written in JavaScript (.js files).
 To run the solutions, use Node.js – a JavaScript runtime environment.
 
-bash
-Copy
-Edit
-node filename.js
+To run the code, use the `node filename.js` command.
+// example:
+// This is a sample JavaScript code
+function greet(name) {
+  return `Hello, ${name}!`;
+}
+
+console.log(greet("Nitesh"));
+---------------❌❌----------------------------
 ## 🙌 Let's Connect
 If you're also learning JavaScript or love solving problems, feel free to star ⭐ this repo or fork it! Let's grow together 🚀
