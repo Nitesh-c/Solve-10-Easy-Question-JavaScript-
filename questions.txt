@@ -1,0 +1,19 @@
+Q: Write a function that takes a sentence string and returns it with the words reversed, not the letters.
+
+Q: Print numbers from 1 to 100. For multiples of 3, print "Fizz", for multiples of 5, print "Buzz", and for multiples of both, print "FizzBuzz".
+
+Q: Write a function that removes duplicate values from an array without using Set.
+
+Q: Write a function that checks if a given string is a palindrome (reads the same forward and backward), ignoring spaces and punctuation.
+
+Q: Write a function that takes a nested array and returns a single flat array.
+
+Q: You have an array of numbers from 1 to 100, but one number is missing. Find the missing number.
+
+Q: Write a function that counts the frequency of each character in a string (ignore spaces and case).
+
+Q: Write a function that capitalizes the first letter of every word in a sentence.
+
+Q: Write a function to rotate an array to the right by k steps.
+
+Q: Write a function that returns the longest word in a given sentence.
