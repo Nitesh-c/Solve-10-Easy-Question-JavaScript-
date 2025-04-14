@@ -1,0 +1,7 @@
+Q. Write a program two swap two number without using third varaibles.
+Q. Given an array of numbers, return the sum of all even numbers.
+Q. Write a function to reverse the digits of a number.
+Q. An Armstrong number of 3 digits is an integer such that the sum of the cubes of its digits is equal to the number itself.
+Q. Write a function to find the GCD of two positive integers.
+Q. Convert a given decimal number to binary. 
+Q. Write a function to print the Fibonacci sequence up to n terms.
