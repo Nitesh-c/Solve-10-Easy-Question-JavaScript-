@@ -1,0 +1,10 @@
+Q. Given a sorted array of unique numbers from 1 to n with one missing, find the missing number.
+Q. Write a function that flattens a nested array.
+Q. Rotate the elements of an array to the right by k steps.
+Q. Return an array containing the common elements of two arrays.
+Q. A pangram is a sentence containing every letter of the alphabet at least once.
+Q.
+Q.
+Q.
+Q.
+Q.
