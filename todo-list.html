@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>Todo Application</title>
+</head>
+<body>
+<h1 class="main-heading">Todo List Application</h1>
+<label for="inputTask">Task</label>
+<input type="text" id="inputTask" placeholder="Enter you Task">
+<button type="button">Add</button>
+<span id="error"></span>
+
+<div class="list-container"></div>
+
+<script defer>
+document.querySelector("body").style.backgroundColor = "black";
+document.querySelector("body").style.color = "white";
+document.querySelector(".main-heading").style.color = "yellow";
+document.querySelector(".main-heading").style.textAlign = "center";
+document.querySelector("body").style.fontFamily = "Arial";
+document.querySelector(".main-heading").style.fontWeight = 900;
+document.getElementById("inputTask").style.color = "darkblue";
+document.getElementById("inputTask").style.fontSize = "25px";
+document.querySelector("label").style.fontSize = "25px";
+document.querySelector("button").style.fontSize = "25px";
+
+
+document.querySelector("button").addEventListener("click", function (){
+let task = document.getElementById("inputTask").value;
+
+if(task === ""){
+document.getElementById("error").textContent = "Please Enter Task!"
+document.getElementById("error").style.color = "red"
+}else{
+		let ele = document.createElement("h1");
+		ele.textContent = task;
+		let containerDiv = document.querySelector(".list-container");
+		containerDiv.appendChild(ele);
+		clear();
+		task.value = "";
+}
+
+})
+
+function clear(){
+	document.getElementById("inputTask").value = "";
+}
+
+
+</script>
+</body>
+</html>
